@@ -1,0 +1,92 @@
+{
+    "carta_ardilla":{
+        "id_carta": 1,
+        "nombre_carta": "Ardilla",
+        "tipo": "criatura",
+        "coste_sangre": 0,
+        "vida": 1,
+        "daño": 0,
+        "descripcion": "Carta sin coste de sangre, usada para ser sacrificada por otras cartas"
+    },
+
+    "carta_lobo":{
+        "id_carta": 2,
+        "nombre_carta": "Lobo",
+        "tipo": "criatura",
+        "coste_sangre": 2,
+        "vida": 2,
+        "daño": 3,
+        "descripcion": "Carta con poca vida pero buen daño de ataque"
+    },
+
+    "carta_arminho":{
+        "id_carta": 3,
+        "nombre_carta": "Armiño",
+        "tipo": "criatura",
+        "coste_sangre": 1,
+        "vida": 3,
+        "daño": 1,
+        "descripcion": "Carta con poco daño de ataque pero buena vida y un coste bajo, esta carta no habla"
+    },
+
+    "carta_oso":{
+        "id_carta": 4,
+        "nombre_carta": "Oso",
+        "tipo": "criatura",
+        "coste_sangre": 3,
+        "vida": 4,
+        "daño": 4,
+        "descripcion": "Carta con un coste alto pero con mucha vida y daño de ataque"
+    },
+
+    "carta_gecko":{
+        "id_carta": 5,
+        "nombre_carta": "Gecko",
+        "tipo": "criatura",
+        "coste_sangre": 0,
+        "vida": 1,
+        "daño": 1,
+        "descripcion": "Carta con "
+    },
+
+    "carta_piel_conejo":{
+        "id_carta": 6,
+        "nombre_carta": "Piel de conejo",
+        "tipo": "piel",
+        "coste_sangre": 0,
+        "vida": 1,
+        "daño": 0,
+        "descripcion": "Piel de conejo que se puede intercambiar por otras cartas al trampero"
+    },
+
+    "carta_piel_lobo":{
+        "id_carta": 7,
+        "nombre_carta": "Piel de lobo",
+        "tipo": "piel",
+        "coste_sangre": 0,
+        "vida": 2,
+        "daño": 0,
+        "descripcion": "Piel de lobo que se puede intercambiar por otras cartas mejoradas al trampero"
+    },
+
+    "carta_roca":{
+        "id_carta": 8,
+        "nombre_carta": "Roca",
+        "tipo": "obstaculo",
+        "coste_sangre": 0,
+        "vida": 5,
+        "daño": 0,
+        "descripcion": "Carta que obstaculiza a otras cartas, menos a las cartas con el sello aéreo"
+    },
+
+    "carta_arbol":{
+        "id_carta": 9,
+        "nombre_carta": "Arbol",
+        "tipo": "obstaculo",
+        "coste_sangre": 0,
+        "vida": 5,
+        "daño": 0,
+        "descripcion": "Carta que obstaculiza a otras cartas, incluso a las que tienen el sello aéreo"
+    }
+
+}
