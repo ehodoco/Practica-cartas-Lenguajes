@@ -1,0 +1,16 @@
+{
+    "personajes":[
+        {
+            "id":1, 
+            "tipo_mazo": "mazo loco", 
+            "velas_actuales": 1,
+            "velas_maximas": 2,
+            "oro": 12,
+            "coordenadas_mapa": [12, 32, 55],
+            "partida_activa": true,
+            "mazo":[1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 3, 4]
+                
+            
+        }
+    ]
+}

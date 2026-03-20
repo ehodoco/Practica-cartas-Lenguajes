@@ -1,4 +1,9 @@
 {
+    "sellos":[
+        {"id": 1, "nombre": "Sello volador", "descripcion": "Permite a la carta a atacar directamente al oponente"},
+        {"id": 2, "nombre": "Sello grán salto", "descripcion": "Permite a la carta bloquear los ataques de cartas con el sello volador"}
+    ],
+
     "carta_ardilla":{
         "id_carta": 1,
         "nombre_carta": "Ardilla",
@@ -6,6 +11,7 @@
         "coste_sangre": 0,
         "vida": 1,
         "daño": 0,
+        "sellos_aplicados": [],
         "descripcion": "Carta sin coste de sangre, usada para ser sacrificada por otras cartas"
     },
 
@@ -16,6 +22,7 @@
         "coste_sangre": 2,
         "vida": 2,
         "daño": 3,
+        "sellos_aplicados": [],
         "descripcion": "Carta con poca vida pero buen daño de ataque"
     },
 
@@ -26,6 +33,7 @@
         "coste_sangre": 1,
         "vida": 3,
         "daño": 1,
+        "sellos_aplicados": [],
         "descripcion": "Carta con poco daño de ataque pero buena vida y un coste bajo, esta carta no habla"
     },
 
@@ -36,6 +44,7 @@
         "coste_sangre": 3,
         "vida": 4,
         "daño": 4,
+        "sellos_aplicados": [],
         "descripcion": "Carta con un coste alto pero con mucha vida y daño de ataque"
     },
 
@@ -46,7 +55,8 @@
         "coste_sangre": 0,
         "vida": 1,
         "daño": 1,
-        "descripcion": "Carta con "
+        "sellos_aplicados": [],
+        "descripcion": "Carta con poca vida y ataque pero no cuesta sangre"
     },
 
     "carta_piel_conejo":{
@@ -56,6 +66,7 @@
         "coste_sangre": 0,
         "vida": 1,
         "daño": 0,
+        "sellos_aplicados": [],
         "descripcion": "Piel de conejo que se puede intercambiar por otras cartas al trampero"
     },
 
@@ -66,6 +77,7 @@
         "coste_sangre": 0,
         "vida": 2,
         "daño": 0,
+        "sellos_aplicados": [],
         "descripcion": "Piel de lobo que se puede intercambiar por otras cartas mejoradas al trampero"
     },
 
@@ -76,6 +88,7 @@
         "coste_sangre": 0,
         "vida": 5,
         "daño": 0,
+        "sellos_aplicados": [],
         "descripcion": "Carta que obstaculiza a otras cartas, menos a las cartas con el sello aéreo"
     },
 
@@ -86,6 +99,7 @@
         "coste_sangre": 0,
         "vida": 5,
         "daño": 0,
+        "sellos_aplicados": [1],
         "descripcion": "Carta que obstaculiza a otras cartas, incluso a las que tienen el sello aéreo"
     }
 
