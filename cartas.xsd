@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="mazo">
+        <xs:complexType>
+            <xs:sequence>
+            
+                <xs:element name="sellos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sello" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id" type="xs:positiveInteger"/>
+                                        <xs:element name="nombre" type="xs:string"/>
+                                        <xs:element name="descripcion" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="cartas">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="carta" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="id" type="xs:positiveInteger"/>
+                                        <xs:element name="nombre_carta" type="xs:string"/>
+                                        <xs:element name="tipo" type="xs:string"/>
+                                        <xs:element name="coste_sangre" type="xs:nonNegativeInteger"/>
+                                        <xs:element name="vida" type="xs:nonNegativeInteger"/>
+                                        <xs:element name="daño" type="xs:nonNegativeInteger"/>
+                            
+                                        <xs:element name="sellos_aplicados">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="sello_id" type="xs:positiveInteger" minOccurs="0" maxOccurs="unbounded"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                            
+                                        <xs:element name="descripcion" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+</xs:schema>

@@ -1,16 +1,65 @@
 {
     "personajes":[
         {
-            "id":1, 
-            "tipo_mazo": "mazo loco", 
+            "id": 1, 
+            "tipo_mazo": "mazo ardilla", 
             "velas_actuales": 1,
             "velas_maximas": 2,
             "oro": 12,
             "coordenadas_mapa": [12, 32, 55],
             "partida_activa": true,
-            "mazo":[1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 3, 4]
-                
-            
+            "mazo": [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 3, 4]
+        },
+        {
+            "id": 2, 
+            "tipo_mazo": "mazo oso", 
+            "velas_actuales": 2,
+            "velas_maximas": 3,
+            "oro": 1,
+            "coordenadas_mapa": [32, 23, 36],
+            "partida_activa": false,
+            "mazo": [1, 1, 1, 1, 1, 1, 1, 1, 4, 4, 4, 4, 4, 4]
+        },
+        {
+            "id": 3, 
+            "tipo_mazo": "mazo gecko", 
+            "velas_actuales": 2,
+            "velas_maximas": 2,
+            "oro": 0,
+            "coordenadas_mapa": [0, 0, 0],
+            "partida_activa": true,
+            "mazo": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+        },
+        {
+            "id": 4, 
+            "tipo_mazo": "mazo aleatorio", 
+            "velas_actuales": 0,
+            "velas_maximas": 2,
+            "oro": 4,
+            "coordenadas_mapa": [23, 23, 23],
+            "partida_activa": false,
+            "mazo": [1, 2, 6, 2, 8, 3, 8, 4, 2, 1, 5, 3, 6, 7, 4, 8]
+        },
+        {
+            "id": 5, 
+            "tipo_mazo": "mazo Ktulu", 
+            "velas_actuales": 30,
+            "velas_maximas": 30,
+            "oro": 999,
+            "coordenadas_mapa": [0, 0, 0],
+            "partida_activa": true,
+            "mazo": [1, 1, 1, 1, 1, 10, 10, 10, 10, 10, 10, 10, 10]
         }
-    ]
+    ],
+    
+    "usuario":{
+        "id": 1,
+        "nombre": "Paco",
+        "nivel": 12,
+        "fecha_creacion": "21/03/2026",
+        "ultimo_acceso": "22/03/2026",
+        "pase_activo": false,
+        "id_logros": [1, 2, 3],
+        "id_personajes": [1, 3, 5]
+    }
 }

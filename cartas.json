@@ -1,7 +1,8 @@
 {
     "sellos":[
         {"id": 1, "nombre": "Sello volador", "descripcion": "Permite a la carta a atacar directamente al oponente"},
-        {"id": 2, "nombre": "Sello grán salto", "descripcion": "Permite a la carta bloquear los ataques de cartas con el sello volador"}
+        {"id": 2, "nombre": "Sello grán salto", "descripcion": "Permite a la carta bloquear los ataques de cartas con el sello volador"},
+        {"id": 3, "nombre": "Sello inmortalidad", "descripcion": "Permite a la carta volver a la mano del jugador al morir"}
     ],
 
     "carta_ardilla":{
@@ -101,6 +102,16 @@
         "daño": 0,
         "sellos_aplicados": [1],
         "descripcion": "Carta que obstaculiza a otras cartas, incluso a las que tienen el sello aéreo"
-    }
+    },
 
+    "carta_ktulu":{
+        "id_carta": 10,
+        "nombre_carta": "Ktulu",
+        "tipo": "dios",
+        "coste_sangre": 1,
+        "vida": 20,
+        "daño": 10,
+        "sellos_aplicados": [1, 2, 3],
+        "descripcion": "Una carta muy balanceada"
+    }
 }

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mazo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="cartas.xsd">
+
+    <sellos>
+        <sello>
+            <id>1</id>
+            <nombre>Sello volador</nombre>
+            <descripcion>Permite a la carta a atacar directamente al oponente</descripcion>
+        </sello>
+
+        <sello>
+            <id>2</id>
+            <nombre>Sello grán salto</nombre>
+            <descripcion>Permite a la carta bloquear los ataques de cartas con el sello volador</descripcion>
+        </sello>
+
+        <sello>
+            <id>3</id>
+            <nombre>Sello inmortalidad</nombre>
+            <descripcion>Permite a la carta volver a la mano del jugador al morir</descripcion>
+        </sello>
+
+    </sellos>
+
+    <cartas>
+        <carta>
+            <id>1</id>
+            <nombre_carta>Ardilla</nombre_carta>
+            <tipo>criatura</tipo>
+            <coste_sangre>0</coste_sangre>
+            <vida>1</vida>
+            <daño>0</daño>
+            <sellos_aplicados></sellos_aplicados>
+            <descripcion>Carta sin coste de sangre, usada para ser sacrificada por otras cartas</descripcion>
+        </carta>
+
+        <carta>
+            <id>2</id>
+            <nombre_carta>Lobo</nombre_carta>
+            <tipo>criatura</tipo>
+            <coste_sangre>2</coste_sangre>
+            <vida>2</vida>
+            <daño>3</daño>
+            <sellos_aplicados></sellos_aplicados>
+            <descripcion>Carta con poca vida pero buen daño de ataque</descripcion>
+        </carta>
+
+        <carta>
+            <id>3</id>
+            <nombre_carta>Armiño</nombre_carta>
+            <tipo>criatura</tipo>
+            <coste_sangre>1</coste_sangre>
+            <vida>3</vida>
+            <daño>1</daño>
+            <sellos_aplicados></sellos_aplicados>
+            <descripcion>Carta con poco daño de ataque pero buena vida y un coste bajo, esta carta no habla</descripcion>
+        </carta>
+
+        <carta>
+            <id>4</id>
+            <nombre_carta>Oso</nombre_carta>
+            <tipo>criatura</tipo>
+            <coste_sangre>3</coste_sangre>
+            <vida>4</vida>
+            <daño>4</daño>
+            <sellos_aplicados></sellos_aplicados>
+            <descripcion>Carta con un coste alto pero con mucha vida y daño de ataque</descripcion>
+        </carta>
+
+        <carta>
+            <id>5</id>
+            <nombre_carta>Gecko</nombre_carta>
+            <tipo>criatura</tipo>
+            <coste_sangre>0</coste_sangre>
+            <vida>1</vida>
+            <daño>1</daño>
+            <sellos_aplicados></sellos_aplicados>
+            <descripcion>Carta con poca vida y ataque pero no cuesta sangre</descripcion>
+        </carta>
+
+        <carta>
+            <id>6</id>
+            <nombre_carta>Piel de conejo</nombre_carta>
+            <tipo>piel</tipo>
+            <coste_sangre>0</coste_sangre>
+            <vida>1</vida>
+            <daño>0</daño>
+            <sellos_aplicados></sellos_aplicados>
+            <descripcion>Piel de conejo que se puede intercambiar por otras cartas al trampero</descripcion>
+        </carta>
+
+        <carta>
+            <id>7</id>
+            <nombre_carta>Piel de lobo</nombre_carta>
+            <tipo>piel</tipo>
+            <coste_sangre>0</coste_sangre>
+            <vida>2</vida>
+            <daño>0</daño>
+            <sellos_aplicados></sellos_aplicados>
+            <descripcion>Piel de lobo que se puede intercambiar por otras cartas mejoradas al trampero</descripcion>
+        </carta>
+
+        <carta>
+            <id>8</id>
+            <nombre_carta>Roca</nombre_carta>
+            <tipo>obstaculo</tipo>
+            <coste_sangre>0</coste_sangre>
+            <vida>5</vida>
+            <daño>0</daño>
+            <sellos_aplicados></sellos_aplicados>
+            <descripcion>Carta que obstaculiza a otras cartas, menos a las cartas con el sello aéreo</descripcion>
+        </carta>
+
+        <carta>
+            <id>9</id>
+            <nombre_carta>Arbol</nombre_carta>
+            <tipo>obstaculo</tipo>
+            <coste_sangre>0</coste_sangre>
+            <vida>5</vida>
+            <daño>0</daño>
+            <sellos_aplicados>
+                <sello_id>1</sello_id>
+            </sellos_aplicados>
+            <descripcion>Carta que obstaculiza a otras cartas, incluso a las que tienen el sello aéreo</descripcion>
+        </carta>
+
+        <carta>
+            <id>10</id>
+            <nombre_carta>Ktulu</nombre_carta>
+            <tipo>dios</tipo>
+            <coste_sangre>1</coste_sangre>
+            <vida>20</vida>
+            <daño>10</daño>
+            <sellos_aplicados>
+                <sello_id>1</sello_id>
+                <sello_id>2</sello_id>
+                <sello_id>3</sello_id>
+            </sellos_aplicados>
+            <descripcion>Una carta muy balanceada</descripcion>
+        </carta>
+
+    </cartas>
+</mazo>
